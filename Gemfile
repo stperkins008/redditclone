@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'bootstrap-sass'
+gem 'record_tag_helper'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
@@ -27,6 +28,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'acts_as_votable'
+gem 'simple_form'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
