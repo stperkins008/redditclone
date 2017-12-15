@@ -20,11 +20,15 @@
 #logo {
 	font-size: 26px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: -1px;
 	padding: 15px 0;
+
 	a {
 		color: #2F363E;
+	}
+	a:hover {
+		text-decoration: none;
 	}
 }
 
